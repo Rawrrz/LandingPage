@@ -1,23 +1,47 @@
-*
+body *
 {
+    margin: 0%;
+    padding: 0%;
     display: flex;
     flex-direction: column;
+    font-family: roboto;
 }
 
 /* Header */
 
 header
 {
-    background-color: #1F2937;
     display: flex;
+    background-color: #1F2937;
     flex-direction: row;
     align-items: center;
+    color: white;
+    padding-top: 1%;
 }
 
-.header-logo
+header .header-links
+{
+    flex-direction: row;
+    margin-right: 10%;
+    padding-left: 10%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header .header-links .header-link
+{
+    width: 150px;
+}
+
+
+header .header-logo
 {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 10%;
+    margin-right: 30%;
+    font-weight: bolder;
+    width: auto;
 }
 
 /* Section 1 */
@@ -28,6 +52,53 @@ header
     background-color: #1F2937;
     flex-direction: row;
     align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-1-header
+{
+    padding-right: 27%;
+}
+
+.section-1-header h1
+{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.section-1 p
+{
+    color: #E5E7EB;
+}
+
+.section-1-button
+{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 22%;
+    height: 20px;
+    margin-top: 2%;
+    font-size: 18px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.section-1 .section-1-image
+{
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #6e7883;
+    height: 50%;
+    width: 35%;
+}
+
+.section-1 .section-1-image p
+{
+    padding-top: 22.5%;
 }
 
 /* Section 2 */
@@ -36,6 +107,13 @@ header
 {
     height: 500px;
     align-items: center;
+}
+
+.section-2-header
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .section-2-image-list
