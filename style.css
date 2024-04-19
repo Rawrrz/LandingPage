@@ -107,6 +107,9 @@ header .header-logo
 {
     height: 500px;
     align-items: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .section-2-header
@@ -114,16 +117,40 @@ header .header-logo
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    padding-bottom: 1%;
 }
 
 .section-2-image-list
 {
+    display: flex;
+    padding-top: 1%;
     flex-direction: row;
+    height: 46%;
+    width: 50%;
+    gap: 50px;
+    color: #525355;
 }
 
 .section-2-image-list-pair
 {
     margin: 10px;
+    height: 100%;
+}
+
+
+.section-2-image-list-pair-image
+{
+    border: 4.5px #3882F6 solid;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    height: 100%;
+    width: 100%;
+}
+
+.section-2-image-list-pair p
+{
+    font-size: 18px;
+    text-align: center;
 }
 
 /* Section 3 */
