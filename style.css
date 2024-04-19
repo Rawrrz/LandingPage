@@ -1,7 +1,11 @@
-body *
+*
 {
     margin: 0%;
     padding: 0%;
+}
+
+body *
+{
     display: flex;
     flex-direction: column;
     font-family: roboto;
@@ -188,23 +192,56 @@ header .header-logo
 .section-4
 {
     height: 400px;
-    align-items: center;
 }
 
 .section-4-signup-banner
 {
+    border-radius: 15px;
     align-items: center;
-    margin: 100px;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 6%;
     background-color: #3882F6;
-    padding-top: 10px;
     flex-direction: row;
-    width: 800px;
+    height: 160px;
+    padding-left: 150px;
+}
+
+.section-4-signup-banner h6
+{
+    font-size: 26px;
+    color: #E5E7EB;
+}
+
+.section-4-signup-banner p
+{
+    color: #E5E7EB;
+}
+
+.section-4-button
+{
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border: 2px #E5E7EB solid;
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30%;
 }
 
 /* Footer section */
 
 footer
 {
+    text-align: center;
+    color: #c2c2c4;
     height: 100px;
     background-color: #1F2937;
+}
+
+footer .copyright
+{
+    font-size: 18px;
+    margin-top: 2%;
 }
